@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+#callback{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background: #7883A2;
+    padding: 10px 8px;
+    width: 124px;
+    margin: 0 auto;
+    cursor: pointer;    
+    margin-bottom: 20px;
+}
+ 
+#callback_form{
+    width: 200px;
+    height: 200px;
+    background: #ccc;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 30px;
+    display: none;
+}
+ 
+#callback_form p{
+    cursor: pointer;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    background: #7883A2;    
+}

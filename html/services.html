@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <link rel="stylesheet" type="text/css"  href="../css/services.css">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+var slideshow=new TINY.slider.slide('slideshow',{
+	id:'slider',
+	auto:4,
+	resume:false,
+	vertical:false,
+	navid:'pagination',
+	activeclass:'current',
+	position:0,
+	rewind:false,
+	elastic:true,
+	left:'slideleft',
+	right:'slideright'
+});
+</script>
+<title>Документ без названия</title>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="container">
+		<div class="sliderbutton" id="slideleft" onclick="slideshow.move(-1)"></div>
+		<div id="slider">
+			<ul>
+				<li><img src="photos/1.jpg" width="558" height="235" alt="Image One" /></li>
+				<li><img src="photos/2.jpg" width="558" height="235" alt="Image Two" /></li>
+				<li><img src="photos/3.jpg" width="558" height="235" alt="Image Three" /></li>
+				<li><img src="photos/4.jpg" width="558" height="235" alt="Image Four" /></li>
+			</ul>
+		</div>
+		<div class="sliderbutton" id="slideright" onclick="slideshow.move(1)"></div>
+		<ul id="pagination" class="pagination">
+			<li onclick="slideshow.pos(0)"></li>
+			<li onclick="slideshow.pos(1)"></li>
+			<li onclick="slideshow.pos(2)"></li>
+			<li onclick="slideshow.pos(3)"></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
